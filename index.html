@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="main.css" rel="stylesheet"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MediCare</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#services">Services</a></li>
+              <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#about">About</a></li>
+              <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#department">Departments</a></li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#doctors">Doctors</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#contact">Contact</a></li>
+    
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="&#xF002;  Search" style="font-family:Arial, FontAwesome" aria-label="Search"/>
+              <button class="btn btn-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://media.istockphoto.com/photos/portrait-of-friendly-nurse-smiling-at-hospital-picture-id1346124946?b=1&k=20&m=1346124946&s=170667a&w=0&h=__AFEjgssqMgCej89JWaXwbV42Jy_u8Vp9yBypOAG5Q=" class="d-block w-100 h-100px img_car" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text_car1">Medicure Hospitals</h5>
+                  <p class="text_car1">One of the Leading Hospital in Saving Lifes.  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://media.istockphoto.com/photos/nurse-monitoring-a-premature-newborn-in-an-incubator-while-wearing-a-picture-id1306500573?b=1&k=20&m=1306500573&s=170667a&w=0&h=U_O1BAIsvcgB2WZuQUfPdIwCvjQSx0uydGzy8DKFRh8=" class="d-block w-100 img_car" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 >specialized Doctors</h5>
+                  <p >Expert Doctors team with 24*7 Emergency</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1559000357-f6b52ddfbe37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG9zcGl0YWwlMjBlcXVpcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" class="d-block w-100 img_car" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>World class Equipment</h5>
+                  <p>World-class equipments with Research labs, testing labs.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+<!---------------------------------------End of Carousel------------------------------>
+
+
+     
+<!---------------------------------------start of facilites in hospital------------------------------>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="doc_box text-center">
+                <div class="logo_box">
+                  <span class="logo_main"><i class="fa-solid fa-user-doctor"></i></span>
+                </div><br>
+                <div class="main_box" >20</div>
+                <p class="box_head">Doctor</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="doc_box1 text-center">
+                <div class="logo_box1">
+                  <span class="logo_main1"><i class="fa-solid fa-building"></i></span>
+                </div><br>
+                <div class="main_box" >6</div>
+                <p class="box_head">Departments</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="doc_box2 text-center">
+                <div class="logo_box2">
+                  <span class="logo_main2"><i class="fa-solid fa-flask"></i></span>
+                </div><br>
+                <div class="main_box" >4</div>
+                <p class="box_head">Research Labs</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="doc_box3 text-center">
+                <div class="logo_box3">
+                  <span class="logo_main3"><i class="fa-solid fa-award"></i></span>
+                </div><br>
+                <div class="main_box" >20</div>
+                <p class="box_head">Awards</p>
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+
+<!-------------------------------------------About--------------------------------------->
+       <div class="container-fluid" id="about">
+        <div class="row ">
+          <div class="col-lg-6">
+            <div class="div_about">
+              <h3>Delivering</h3>
+            <h2> World-class Healthcare</h2>
+            <p class="para_about">MEDICARE Hospital, one of India's fastest growing healthcare service providers and also one of the most economical, 
+              is promoted by doctors who have got more than 2 decades of experience in the healthcare sector is set to emerge as a global industry
+               model for its ability to reconcile quality, affordability, scale, transparency, credibility and profitability. With all 
+               super-specialty tertiary care facilities that the medical world offers, it is now a one-stop destination for all. located in the
+                primary centre of Hyderabad, with a bed capacity of 100.
+ 
+             Lifeline MEDICARE Hospital offers state of the art in-patient facilities,
+              focusing on the comfort and safety of our patients and their loved ones. MEDICARE Hospital incorporates the latest and
+               advanced technology equipments that helps the doctors diagnose, treat effectively & efficiently.</p>
+              
+          </div>
+            </div>
+          <div class="col-lg-6">
+           <div class="div_about1">
+            <img src="http://www.medicurehospital.com/images/about.png" class="img_about">
+           </div>
+          </div>
+        </div>
+       </div>
+
+
+       <!-------------------------------------Services----------------------------------------------------------------------->
+       <h2 class="head_ser" id="services">Services</h2>
+       <div class="container-fluid">
+         <div class="row">
+           <div class="col-lg-3">
+               <div class="one_services"> <p>24 X 7 Emergency</p></div>
+            
+           </div>
+          <div class="col-lg-3">
+            <div class="two_services"> <p>X-Ray Lab</X-Ray></p></div>
+          </div>
+          <div class="col-lg-3">
+            <div class="three_services"> <p>Blood Testing</p></div>
+          </div>
+          <div class="col-lg-3">
+            <div class="four_services"> <p>Well Equipment</p></div>
+           </div>
+         </div>
+       </div>
+
+       <!---------------------------------------Departments--------------------------------------------------------------->
+       <h2 class="head_dep" id="department">Departments</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="div_dep">
+              <h4 class="head1_dep">Cardiologist</h4>
+              <p class="para_dep"> A cardiologist is a doctor that deals with the cardiovascular system. This means he or she treats any abnormality in our blood vessels and heart. </p>
+              <button class="btn btn-primary btn_dep">More</button>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="div_dep">
+              <h4  class="head1_dep">Gynaecologist</h4>
+              <p class="para_dep"> A gynaecologist is trained to treat female reproductive system which includes the vagina, uterus,and breasts.
+                Anyone with female organs see a gynecologist.
+              </p>
+              <button class="btn btn-primary btn_dep">More</button>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="div_dep">
+              <h4  class="head1_dep">Neurologist</h4>
+              <p class="para_dep"> a neurologist is responsible for treating and diagnosing issues of nervous system.Our nervous system includes our spinal cord, organs, and all nerves.</p>
+              <button class="btn btn-primary btn_dep">More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="div_dep">
+              <h4  class="head1_dep">Orthopaedics</h4>
+              <p class="para_dep">Orthopaedics Narayana Health, the best orthopedic hospital in India provides comprehensive orthopaedic. This department offers specialized care.</p>
+              <button class="btn btn-primary btn_dep">More</button>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="div_dep">
+              <h4  class="head1_dep">Gastroenterology</h4>
+              <p class="para_dep">Gastroenterology Surgical Surgical Gastroenterology provides state-of-the-art care for patients with gastrointestinal problems that need surgical approach.</p>
+              <button class="btn btn-primary btn_dep">More</button>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="div_dep">
+              <h4  class="head1_dep">E.N.T</h4>
+              <p class="para_dep">E.N.T he ENT department at Narayana Health caters to ailments associated with ear, nose and throat and offers a full range of ENT services.</p>
+              <button class="btn btn-primary btn_dep">More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------------------------------------Doctors-------------------------------------------------------->
+      <h2  class="head_doc" id="doctors">Our Specialist Doctors</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="div_doc">
+              <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/doctors/doctors-1.jpg" class="img_doc">
+              <h3>Walter White</h3>
+              <p>Chief Medical Officer</p>
+            </div>
+           
+          </div>
+          <div class="col-lg-3">
+            <div class="div_doc">
+              <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/doctors/doctors-3.jpg" class="img_doc">
+              <h3>William Anderson</h3>
+              <p>Cardiology</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="div_doc">
+              <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/doctors/doctors-2.jpg" class="img_doc">
+              <h3>Sarah Jhonson</h3>
+              <p>Anesthesiologist</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="div_doc">
+              <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/doctors/doctors-4.jpg" class="img_doc">
+              <h3>Amanda Jepson</h3>
+              <p>Neurosurgeon</p>
+            </div>
+          </div>
+        </div>
+  </div>
+  <!---------------------------------------------------Gallery-------------------------->
+      <div class="container">
+        <h2 class="head_gal">Gallery</h2>
+        <div class="row">
+          <div class="col-lg-3">
+           <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/gallery/gallery-1.jpg " class="img_gal"> 
+          </div>
+          <div class="col-lg-3">
+            <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/gallery/gallery-2.jpg " class="img_gal"> 
+           </div>
+           <div class="col-lg-3">
+            <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/gallery/gallery-3.jpg " class="img_gal"> 
+           </div>
+           <div class="col-lg-3">
+            <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/gallery/gallery-4.jpg " class="img_gal"> 
+           </div>
+        </div>
+      </div><br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+           <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/gallery/gallery-5.jpg" class="img_gal"> 
+          </div>
+          <div class="col-lg-3">
+            <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/gallery/gallery-6.jpg " class="img_gal"> 
+           </div>
+           <div class="col-lg-3">
+            <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/gallery/gallery-7.jpg " class="img_gal"> 
+           </div>
+           <div class="col-lg-3">
+            <img src="https://bootstrapmade.com/demo/templates/Medilab/assets/img/gallery/gallery-8.jpg " class="img_gal"> 
+           </div>
+        </div>
+      </div>
+
+<!---------------------------------------Contact---------------------------------------->
+<h2 class="head_con" id="contact">Contact</h2>
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6">
+        <div class="mb-3" class="div1">
+          <input type="text" class="form-control" id="name" placeholder="Enter Name"/>
+      </div>
+     
+      <div class="mb-3" class="div1">
+          <input type="text" class="form-control" id="email" placeholder="Enter Email Id"/>
+      </div>
+      <div class="mb-3" class="div1">
+        <input type="text" class="form-control" id="app" placeholder="Enter Appointment Date"/>
+    </div>
+    <select class="form-select" aria-label="Default select example" id="select">
+      <option selected>Select Doctor</option>
+      <option>William Anderson</option>
+      <option>Sarah Jhonson</option>
+      <option>Amanda Jepson</option>
+      <option>Sonia Jhon</option>
+      <option>Sahab Jhani</option>
+      <option>Sagi Jhosthana</option>
+      <option>Soot Jhansi</option>
+      <option>Sophia Jhon</option>
+      <option>Sarat Jagat</option>
+      <option>Rami Jeevan</option>
+      
+    </select><br>
+    <select class="form-select" aria-label="Default select example" id="select">
+      <option selected>Select Department</option>
+      <option>Cardiologist</option>
+      <option>Gynaecologist</option>
+      <option>Neurologist</option>
+      <option>Orthopaedics</option>
+      <option>Gastroenterology</option>
+      <option>E.N.T</option>
+      
+    </select><br>
+      <div class="mb-3" class="div1">
+        <textarea class="form-control" id="text" placeholder="Enter some massage..."></textarea>
+      </div>
+      <button class="btn btn-primary w-10% m-3">Make Appointment</button>
+    <button class="btn btn-danger">Reset</button>
+    </div>
+      
+
+       <div class="col-lg-4 location">
+         <div class="div_loc">
+          <i class="fa-solid fa-location-dot" id="icon-loc"></i>
+           <h3 class="head_loc">Location:</h3>
+           <p class="para_loc">Nasuja building, madhapur</p>
+           </div>
+         <div>
+          <i class="fa-solid fa-envelope" id="icon_email"></i>
+           <h3 class="head_email">Email:</h3>
+           <p class="para_email">mtls@metrolabs.com</p>
+         </div>
+         <div>
+          <i class="fa-solid fa-mobile-screen" id="icon_call"></i>
+           <h3 class="head_call">Call:</h3>
+           <p class="para_call">+91 9876543210</p>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3766996317336!2d78.38048911409854!3d17.441675205829803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93506d39cf27%3A0xbdf2238313a32ace!2sNasuja%20building!5e0!3m2!1sen!2sin!4v1652507183529!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="address">
+        <h3>MediCure</h3>
+        <p>Nasuja Building</p>
+        <p>Madhapur</p>
+        <p>Telangana</p>
+      </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="links">
+        <h3>Useful Links</h3>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">About</a></p>
+        <p><a href="#">Services</a></p>
+        <p><a href="#">Doctors</a></p>
+        <p><a href="#">Departments</a></p>
+        <p><a href="#">Contact</a></p>
+        <p><a href="#">Make Appointment</a></p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="dept">
+        <h3>Departments</h3>
+        <p>Cardiologist</p>
+        <p>Gynaecologist</p>
+        <p>Neurologist</p>
+        <p>Orthopaedics</p>
+        <p>Gastroenterology</p>
+        <p>E.N.T</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div container>
+    <div class="logos">
+      <i class="fa-brands fa-facebook" id="fb"></i>
+    <i class="fa-brands fa-twitter" id="twit"></i>
+    <i class="fa-brands fa-youtube" id="you"></i>
+    <i class="fa-brands fa-instagram" id="insta"></i>
+    </div>
+  </div>
+
+     
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
